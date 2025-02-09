@@ -9,4 +9,4 @@ function exibirTexto (tag, texto) {
   campo.innerHTML = texto
 }
 
-exibirTexto("h2", `A IMC é ${massaCorporal.toFixed(1)}`)
+exibirTexto("h2", `A sua massa corporal é ${massaCorporal.toFixed(1)}`)
